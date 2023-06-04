@@ -1,0 +1,24 @@
+{
+	"DATA_DIR": "./data/",
+	"DATASET": "mitbih",
+
+	"BATCH_SIZE": 8000,
+	"ARCHITECTURE": "author_proposed_network",
+	"INPUT_DIMENSION": 187,
+
+	"OPTIMIZER": "adam",
+	"LEARNING_RATE": 0.001,
+	"BETA_1": 0.9,
+	"BETA_2": 0.999,
+	"EPOCHS": 30,
+	
+	"MODEL_DIR": "./models",
+	"PRETRAINED_WEIGHTS": "trial-0.pth",
+
+	"PREDICT_SIGNAL_PATH" : "./samples/mitbih_sample_class_4.mat",	
+	
+	"EARLY_STOPING": "val_accuracy",
+	"PATIENCE": 5,
+
+	"TRIAL": "0"
+}
