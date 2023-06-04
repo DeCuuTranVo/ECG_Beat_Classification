@@ -99,7 +99,9 @@ Confusion matrix:
 ```
 
 ### Download data and unzip in folder <code>data</code>
-
+```
+    mkdir data
+```
 Dataset link: https://www.kaggle.com/datasets/shayanfazeli/heartbeat?resource=download
 
 ## 4. Usage section.
